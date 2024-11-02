@@ -12,6 +12,16 @@ Passo 2: adicione o arquivo requirements.txt a raiz do projeto com suas dependen
 
 - pip install -r requirements.txt  
 
+sugestão:
+asgiref==3.7.2
+dj-database-url==2.0.0
+Django==3.2.19
+django-database-url==1.0.3
+gunicorn==20.1.0
+psycopg2-binary==2.9.6
+sqlparse==0.4.4
+typing_extensions==4.7.0
+
 Passo 3: Adicione uma pasta app a raiz do projeto 
 
 Passo 4: Vamos criar nosso projeto através de:
@@ -47,6 +57,7 @@ Passo 10: mude, em settings.py:
 
 Passo 11: adicione, em urls.py:
 
+- from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 - urlpatterns += staticfiles_urlpatterns()
 
 Passo 12: adicione, em settings.py: 
