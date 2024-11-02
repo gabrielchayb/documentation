@@ -80,3 +80,9 @@ Suas mudanças locais deve ser rodadas com o comando:
 python manage.py runserver 
 
 Suas mudanças em produção ja vão via auto-deploy no render.com. 
+
+Passo extra: criar super user: 
+
+python manage.py createsuperuser
+
+
