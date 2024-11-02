@@ -85,4 +85,4 @@ Passo extra: criar super user:
 
 python manage.py createsuperuser
 
-
+https://youtu.be/bE8UllxfFC8?feature=shared
